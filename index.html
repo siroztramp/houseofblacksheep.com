@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preload" href="/src/assets/fonts/px10.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="preload" href="/src/assets/fonts/PlayMeGames-Demo.otf" as="font" type="font/otf" crossorigin />
+    <link rel="preload" href="/src/assets/hobs-bg.svg" as="image" type="image/svg+xml" />
+    <style>
+      html,body{margin:0}
+      html:not(.is-ready),html:not(.is-ready) body{background:#090909}
+      html:not(.is-ready) #app{visibility:hidden;opacity:0}
+      html.is-ready #app{visibility:visible;opacity:1}
+    </style>
+    <noscript><style>html #app{visibility:visible;opacity:1}</style></noscript>
+    <meta
+      name="description"
+      content="HOBS — House of Blacksheep. Branding, marketing, campaigns, digital products and AI concepts, built deliberately different."
+    />
+    <title>The Creative House | HOBS</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/creative/creative.js"></script>
+  </body>
+</html>
