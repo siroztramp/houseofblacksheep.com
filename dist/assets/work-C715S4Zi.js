@@ -1,1 +1,0 @@
-import{n as e}from"./hub-BKlWcQ0C.js";window.location.replace(e(`services/`));
